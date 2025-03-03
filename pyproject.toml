@@ -42,6 +42,7 @@ dependencies = [
   "seaborn",
   "pandas",
   "transformers",
+  "diffusers[torch]",
   "ipython",
   "hydra-core",
   "wandb",
