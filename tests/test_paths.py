@@ -61,7 +61,7 @@ def test_get_target_x1(path_scheduler_type: Tuple[Path, Scheduler]) -> None:
     """Test get_target with x_1 prediction type"""
 
     path_type, scheduler_type = path_scheduler_type
-    scheduler = scheduler_type(prediction_type="x_1")
+    scheduler = scheduler_type(prediction_type="x1")
     path = path_type(scheduler)
 
     x_0 = torch.ones((1, 3, 20))
