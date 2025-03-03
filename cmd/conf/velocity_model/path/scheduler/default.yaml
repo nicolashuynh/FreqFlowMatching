@@ -1,0 +1,3 @@
+_target_: fmfourier.paths.scheduler.CondOTScheduler
+prediction_type: "u"
+eps: 1e-5

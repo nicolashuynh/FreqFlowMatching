@@ -1,0 +1,5 @@
+_target_: fmfourier.paths.paths.AffinePath
+fourier_noise_scaling: ${velocity_model.fourier_noise_scaling}
+
+defaults:
+  - scheduler: default

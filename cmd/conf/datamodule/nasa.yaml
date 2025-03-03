@@ -1,0 +1,10 @@
+_target_: fmfourier.dataloaders.datamodules.NASADatamodule
+data_dir: ${hydra:runtime.cwd}/data
+random_seed: ${random_seed}
+fourier_transform: ${fourier_transform}
+standardize: ${standardize}
+subdataset: charge
+remove_outlier_feature: True
+batch_size: 16
+smooth_frequency: false
+smoother_width: 0.0
