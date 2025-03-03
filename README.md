@@ -4,7 +4,10 @@ This repository implements time series flow matching in the frequency domain.
 It is inspired by our ICML 2024 paper: [Time Series Diffusion in the Frequency Domain](https://arxiv.org/pdf/2402.05933).
 
 ![Sampling example](assets/sampling.gif)
-
+<p align="center">
+    <a href="https://github.com/nicolashuynh/FreqFlowMatching/actions/workflows/python-app.yml/badge.svg"><img alt="Build" src="https://github.com/nicolashuynh/FreqFlowMatching/actions/workflows/python-app.yml/badge.svg"></a>
+    <a href="https://github.com/nicolashuynh/FreqFlowMatching/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/nicolashuynh/FreqFlowMatching.svg?color=blue"></a>
+</p>
 
 # 1. Install
 
